@@ -199,7 +199,7 @@ local function loadMainScript()
     -- ===================================================
     -- == LOAD YOUR MAIN SCRIPT HERE ==
     -- ===================================================
-    -- Example: loadstring(game:HttpGet("YOUR_MAIN_SCRIPT_URL"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mikael312/NorthHub/refs/heads/main/Toh.lua"))()
     
     -- For now, just print success
     print("✅ Main script loaded successfully!")

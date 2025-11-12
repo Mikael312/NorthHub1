@@ -199,13 +199,13 @@ local function loadMainScript()
     -- ===================================================
     -- == LOAD YOUR MAIN SCRIPT HERE ==
     -- ===================================================
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mikael312/NorthHub/refs/heads/main/Toh.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mikael312/NorthHub/refs/heads/main/Sab.lua"))()
     
     -- For now, just print success
     print("✅ Main script loaded successfully!")
     
     -- You can add your actual script here:
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mikael312/NorthHub/refs/heads/main/Toh.lua"))()
+    -- loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_SCRIPT"))()
 end
 
 -- Function to run when "Check Key" button is pressed
@@ -501,4 +501,4 @@ TweenService:Create(mainFrame, TweenInfo.new(0.5, Enum.EasingStyle.Back), {
 
 print("✅ North Hub Key System UI Loaded!")
 print("📋 Discord: https://discord.gg/83kPyNANP")
-print("🔑 Get Key: https://lootdest.org/s?9dhiBiZj")
+print("🔑 Get Key: https://loot-link.com/s?mMxPMlyg")
